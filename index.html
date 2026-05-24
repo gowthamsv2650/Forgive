@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Please Forgive Me ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Page 1 -->
+<div class="page active" id="page1">
+    <h1>I Know I Hurt You ❤️</h1>
+    <p>
+        I never wanted to hurt you.
+        You are the most special person in my life.
+    </p>
+
+    <button onclick="nextPage(2)">
+        Next ➜
+    </button>
+</div>
+
+<!-- Page 2 -->
+<div class="page" id="page2">
+    <h1>I Messed Up Thangooo 🥺</h1>
+
+    <p>
+        I messed up...... and i'm really sorry for that 🤌🏻
+        You are still important for me beacuse you matter more than you think 😍
+    </p>
+
+    <button onclick="nextPage(3)">
+        Next ➜
+    </button>
+</div>
+
+<!-- Page 3 -->
+<div class="page" id="page3">
+    <h1>You Mean Everything ❤️</h1>
+
+    <p>
+        Everything else can wait, but your happiness will always be important to me. ❤️
+       Love you to the moon and back 🫶🏻
+    </p>
+
+    <button onclick="nextPage(4)">
+        Next ➜
+    </button>
+</div>
+
+<!-- Page 4 -->
+<div class="page" id="page4">
+
+    <h1>Forgiveness Meter ❤️</h1>
+
+    <div class="meter-box">
+        <div class="meter-fill" id="meterFill">
+            0%
+        </div>
+    </div>
+
+    <p class="tap-text">
+        Tap the heart to forgive me 🥺
+    </p>
+
+    <div class="heart" onclick="fillMeter()">
+        ❤️
+    </div>
+
+    <h2 id="finalMessage"></h2>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
